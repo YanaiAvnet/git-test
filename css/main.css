@@ -1,8 +1,13 @@
 body {
-    background-color: gold;
+    background-color: rgb(255, 242, 168);
 }
 
 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
     color: white;
-    font-size: 20px;
+    cursor: pointer;
 }

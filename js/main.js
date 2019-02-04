@@ -1,2 +1,3 @@
-console.log('main loaded');
-console.log('uploaded successfully')
+function onChangeColor(el) {
+    el.style.color = getRandomColor();
+}
